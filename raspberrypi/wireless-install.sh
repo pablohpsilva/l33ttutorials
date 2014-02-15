@@ -1,4 +1,4 @@
-!£/bin/bash
+!#/bin/bash
 wget https://dl.dropboxusercontent.com/u/80256631/8188eu-20131223.tar.gz
 tar -zxvf $(pwd)"/8188eu-20131223.tar.gz"
 sudo cp $(pwd)"rtl8188eufw.bin" /lib/firmware/rtlwifi
