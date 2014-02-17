@@ -7,3 +7,4 @@ sudo cp $(pwd)"/rtl8188eufw.bin" /lib/firmware/rtlwifi
 sudo install -p -m 644 $(pwd)"/8188eu.ko" "/lib/modules/"$(uname -r)"/kernel/drivers/net/wireless"
 sudo insmod "/lib/modules/"$(uname -r)"/kernel/drivers/net/wireless/8188eu.ko"
 sudo depmod -a
+sudo reboot
