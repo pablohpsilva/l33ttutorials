@@ -1,0 +1,32 @@
+ sudo -u git -H bundle exec rake gitlab:setup RAILS_ENV=production
+rake aborted!
+Unknown alias: base
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/settingslogic-2.0.9/lib/settingslogic.rb:103:in `initialize'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/settingslogic-2.0.9/lib/settingslogic.rb:60:in `new'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/settingslogic-2.0.9/lib/settingslogic.rb:60:in `instance'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/settingslogic-2.0.9/lib/settingslogic.rb:37:in `[]'
+/home/git/gitlab/config/initializers/1_settings.rb:38:in `<top (required)>'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `block in load'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:245:in `load'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/engine.rb:588:in `block (2 levels) in <class:Engine>'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/engine.rb:587:in `each'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/engine.rb:587:in `block in <class:Engine>'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/git/gitlab/config/environment.rb:5:in `<top (required)>'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/backports-3.3.2/lib/backports/tools.rb:328:in `require'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/backports-3.3.2/lib/backports/tools.rb:328:in `require_with_backports'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/application.rb:103:in `require_environment!'
+/home/git/gitlab/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/application.rb:297:in `block (2 levels) in initialize_tasks'
+Tasks: TOP => gitlab:setup => environment
+(See full trace by running task with --trace)
