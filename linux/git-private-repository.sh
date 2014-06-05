@@ -19,6 +19,7 @@ sudo -u git -H git clone https://github.com/gitlabhq/gitlab-shell.git
 cd gitlab-shell
 sudo -u git -H git checkout v1.8.0
 sudo -u git -H cp config.yml.example config.yml
+sudo -u git -H ./bin/install
 
 sudo apt-get install -y mysql-server mysql-client libmysqlclient-dev
 sudo apt-get update
