@@ -4,7 +4,6 @@ This is the l33ttutorials repository! Welcome!
 You can find all my bash scripts I used while I played with my Raspberry PI and Linux.
 
 ## Raspberry folder content
-
 ### addBelkin.sh
 This script will install the internet interface so the Wifi will work. Don't worry! It does make an interface backup file.
 
@@ -17,10 +16,8 @@ This bash script will fix the default keyboard key mapping so US keyboards work 
 ### wireless-install-l33ttutorials.sh
 This will install the correct Wireless drive on Raspberry Pi. The drive is 8188eu.
 
-=============
 
 ## Linux folder content
-
 ### git-private-repository.sh
 Don't use it. Thank you.
 
